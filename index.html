@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="icon.jpg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Bowlby+One+SC&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>TETRIS</title>
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <style media="screen">
+      body {
+        background-color: black;
+      }
+      #head {
+        color: white;
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Bowlby One SC', cursive;
+      }
+      #map {
+        display: block;
+        margin: 10px auto 0 auto;
+        border: 1px solid white;
+      }
+      #score {
+        margin: 20px auto;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        font-family: 'Amatic SC', cursive;
+      }
+    </style>
+    <div>
+      <div id="head">TETRIS</div>
+      <canvas id="map" width="300" height="600"></canvas>
+      <div id="score">SCORE:0</div>
+    </div>
+  </body>
+</html>
